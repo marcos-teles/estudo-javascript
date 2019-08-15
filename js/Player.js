@@ -8,13 +8,3 @@ class Player extends Person{
 }
 
 export default Player;
-
-
-
-
-
-
-
-
-
-

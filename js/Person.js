@@ -1,8 +1,8 @@
 import Sprite from "./Sprite.js";
 
-class Person{
+class Person extends Sprite{
     constructor(){
-        console.log("person")
+        super();
     }
 }
 
