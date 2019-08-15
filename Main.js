@@ -1,8 +1,4 @@
-async function start(){
-    await importScript(scripts.PLAYER);    
-    var player = new Player();
 
-}
+import Player from "./js/Player.js";
 
-start();
-
+var player = new Player();

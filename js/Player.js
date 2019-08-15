@@ -1,14 +1,20 @@
+import Person from "./Person.js";
 
-async function define(){
-
-    await importScript(scripts.PERSON)
-
-
-}
-
-class Player{
+class Player extends Person{
     constructor(){
-        console.log("player")
+        super();
+        console.log("player");
     }
 }
+
+export default Player;
+
+
+
+
+
+
+
+
+
 
